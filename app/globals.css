@@ -888,3 +888,47 @@ p {
   text-transform: uppercase;
 }
 
+/* Mobile optimizations for Minimal Gold Theme */
+@media (max-width: 600px) {
+  .minimal-container {
+    padding: 2rem 1rem !important;
+  }
+  .minimal-card {
+    padding: 1.5rem 1.25rem !important;
+    margin: 1.5rem 0 !important;
+  }
+  .theme-minimal-gold h1 {
+    font-size: 1.65rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1.2rem !important;
+  }
+  .theme-minimal-gold h2.gold-text-gradient {
+    font-size: 1.85rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .theme-minimal-gold p {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 2rem !important;
+  }
+  .mystery-circle {
+    margin-bottom: 1.5rem !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .btn-gold {
+    padding: 1rem 1.5rem !important;
+    font-size: 0.85rem !important;
+    letter-spacing: 0.12em !important;
+  }
+  .minimal-list-item {
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+  }
+  .minimal-card-title {
+    margin-bottom: 0.85rem !important;
+  }
+}
+
+

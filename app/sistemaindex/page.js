@@ -3,6 +3,9 @@ import Link from "next/link";
 export const metadata = {
   title: "Sistema Index | inquebrantavel7",
   description: "O hub definitivo de desenvolvimento pessoal feito para desfoder sua vida.",
+  icons: {
+    icon: "/images/capa_sistema_index.png",
+  },
 };
 
 export default function SistemaIndex() {
@@ -16,8 +19,12 @@ export default function SistemaIndex() {
       {/* Header (No backlink, extremely clean logo only) */}
       <header className="header" style={{ padding: "0.5rem 0" }}>
         <div className="container" style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "3.5rem" }}>
-          <Link href="/" className="logo" id="minimal-logo" style={{ fontSize: "1.3rem" }}>
-            <div className="logo-icon" style={{ width: "1.75rem", height: "1.75rem", fontSize: "0.85rem" }}>I</div>
+          <Link href="/" className="logo" id="minimal-logo" style={{ fontSize: "1.3rem", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
+            <img 
+              src="/images/capa_sistema_index.png" 
+              alt="Logo" 
+              style={{ width: "1.75rem", height: "1.75rem", borderRadius: "50%", objectFit: "cover", border: "1px solid rgba(212, 175, 55, 0.3)" }} 
+            />
             inquebrantavel<span>7</span>
           </Link>
         </div>
